@@ -580,5 +580,8 @@ button {
 }
 
 .work-li {
-  display: flex;
+  display: block;
+}
+.hero-icons {
+  fill: #2e2f42;
 }
