@@ -617,7 +617,6 @@ button {
 }
 
 .portfolio-card-content {
-  display: block;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -640,6 +639,10 @@ button {
 
 .what-are-doing {
   padding-bottom: 120px;
+}
+
+.portfolio-cart-container {
+  display: block;
 }
 
 .portfolio-cart-container:hover {
