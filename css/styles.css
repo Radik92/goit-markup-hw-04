@@ -70,6 +70,7 @@ a {
   line-height: 1.17;
   margin-right: 76px;
 }
+
 .logo-part {
   font-family: 'Raleway', sans-serif;
   line-height: 1.17;
@@ -730,8 +731,8 @@ button {
   align-items: center;
 }
 
-.customers-item {
-  width: calc((100%-120px) / 6);
+.customer-item {
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
