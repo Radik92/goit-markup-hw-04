@@ -466,11 +466,7 @@ a {
   justify-content: center;
 }
 
-.footer-desc {
-  margin-right: 120px;
-}
-
-.container-footer {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
