@@ -615,6 +615,7 @@ button {
 }
 
 .portfolio-card-content {
+  display: block;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -627,7 +628,11 @@ button {
   justify-content: center;
 }
 
-.filter-type {
+.filter-type:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.filter-type:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .card-content {
@@ -642,7 +647,11 @@ button {
   padding-bottom: 120px;
 }
 
-.portfolio-cart-container {
+.portfolio-cart-container:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-cart-container:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img-href {
