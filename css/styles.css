@@ -448,6 +448,7 @@ a {
 }
 
 .footer-desc {
+  display: flex;
   margin-right: 120px;
 }
 
