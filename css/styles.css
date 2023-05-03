@@ -398,6 +398,9 @@ a {
 }
 
 .web-link-footer {
+  display: inline-block;
+  padding: 0;
+
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-style: normal;
@@ -448,14 +451,11 @@ a {
 }
 
 .footer-desc {
-  display: flex;
   margin-right: 120px;
 }
 
 .footer-subtitle {
-  display: block;
   margin-bottom: 16px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -465,12 +465,12 @@ a {
 
 .footer-social-list {
   display: flex;
-  gap: 24px;
-  justify-content: center;
+  gap: 16px;
 }
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social-item {
